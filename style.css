@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
+header, .cards, .artifact, footer, .feedback {
+    background-color: #1D2F30;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1110px;
-}
-
-header, .cards {
-    background-color: #1D2F30;
 }
 
 .menu {
@@ -45,19 +45,31 @@ a {
     column-gap: 64px;
 }
 
-.promo__img {
+.promo__img, .feedback__img {
     width: 100%;
     height: auto;
     position: absolute;
     z-index: 0;
 }
 
-.promo__inf {
+.promo__inf  {
    color: #fff; 
    padding: 115px 0;
    position: relative;
    z-index: 2;
    width: 56%;
+}
+
+.feedback__inf {
+    width: 77%;
+    padding-top: 60px;
+}
+
+.feedback__inf {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    width: 56%;
 }
 
 h1 {
@@ -132,4 +144,117 @@ h1 {
     padding: 15px 25px;
     max-width: 145px;
     align-items: end;
+}
+
+.btn__green__sub {
+    color: #0B1919;
+    background-color: #BAE249;
+    font-weight: bold;
+}
+
+.coll_arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 26px;
+}
+
+.arr {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Cormorant';
+}
+
+h3 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Cormorant';
+    margin-bottom: 30px;
+}
+
+.artifact {
+    padding-top: 57px;
+}
+
+.img__art {
+    max-width: 825px;
+    height: auto;
+}
+
+.info__art {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.green__block {
+    max-width: 255px;
+    background-color: #BAE249;
+    padding: 15px;
+}
+
+.card__title__black {
+    color: #1D2F30;
+}
+
+.card__subtitle__green {
+    color: #506829;
+}
+
+.black {
+    color: #0B1919;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    gap: 24px;
+}
+
+input {
+    max-width: 350px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.placeholder {
+    color: #899D9D;
+    font-family: 'Open Sans';
+    line-height: 150%;
+} 
+
+.subtitle__fb {
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+
+.feedback {
+    padding-top: 60px;
+}
+
+.row__1 {
+    background-color: #0B1919;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 18px 0;
+}
+
+.row__2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+    color: #899D9D;
+    font-size: 12px;
+    font-family: "Open Sans";
 }
